@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+.first{
+    position: relative;
+}
+.top{
+    position: absolute;
+    top: 30px;
+}
+li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.nav_cont>ul{
+    display: flex;
+    justify-content: space-between;
+}
+.nav_cont{
+    display: flex;
+}
+.right{
+   margin-top: 20px;
+   margin-left: 700px;
+
+}
+.right>li{
+    padding-left: 30px;
+}
+.mew{
+    /* background-color: rgb(0, 0, 0,0.6); */
+     padding: 20px 150px;
+
+    /*display: flex;
+    justify-content: center; */
+    /* width: 100%; */
+}
